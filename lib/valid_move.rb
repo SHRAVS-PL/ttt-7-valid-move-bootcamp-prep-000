@@ -3,6 +3,7 @@
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = 0
 def position_taken?(board,index)
   
   
