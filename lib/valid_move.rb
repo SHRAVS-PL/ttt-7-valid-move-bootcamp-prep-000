@@ -6,7 +6,13 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def position_taken?(board,index)
-  (board[index] == nil || board[index] == "" || board[index] == " ") ? false : true
+  taken = (board[index] == nil || board[index] == "" || board[index] == " ") ? false : true
 end   
+
+def valid_move?(board,index)
+  valid = nil
+  taken = position_taken(board,index)
+  if(taken || index > board.length)
+    
   
   
