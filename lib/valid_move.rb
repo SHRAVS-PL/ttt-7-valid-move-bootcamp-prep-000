@@ -13,6 +13,11 @@ def valid_move?(board,index)
   valid = nil
   taken = position_taken(board,index)
   if(taken || index > board.length)
-    
+  valid = false
+  else
+  valid = true
+end
+valid
+end
   
   
