@@ -11,7 +11,7 @@ end
 
 def valid_move?(board,index)
   valid = nil
- if(index)
+ if(index.between(0,8))
 end
   
   
