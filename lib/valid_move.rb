@@ -6,7 +6,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def position_taken?(board,index)
-  taken = (board[index] == nil || board[index] == "" || board[index] == " ") ? false : true
+ board[index] != ""
 end   
 
 def valid_move?(board,index)
